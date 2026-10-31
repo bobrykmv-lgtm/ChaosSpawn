@@ -1,0 +1,20 @@
+name: ChaosSpawn
+version: 1.0.0
+main: com.chaossmp.chaosspawn.ChaosSpawn
+api-version: '1.21'
+softdepend:
+
+* WorldEdit
+
+commands:
+chaosspawn:
+description: ChaosSpawn management command
+usage: /chaosspawn
+
+permissions:
+chaosspawn.admin:
+description: Allows management of spawn protection
+default: op
+chaosspawn.bypass:
+description: Allows bypassing spawn protection
+default: op
