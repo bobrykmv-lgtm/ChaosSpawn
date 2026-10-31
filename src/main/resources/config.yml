@@ -1,0 +1,19 @@
+region:
+enabled: false
+world: ""
+
+min:
+x: 0
+y: 0
+z: 0
+
+max:
+x: 0
+y: 0
+z: 0
+
+protection:
+interact: true
+
+messages:
+protected: "&cЗдесь действует защита спавна!"
